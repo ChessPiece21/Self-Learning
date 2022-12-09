@@ -1,4 +1,4 @@
-# Self-Learning Python
+# Self-Learning
 This is the repository for all of my self-learning, just a way to document my journey. 
 <br>
 ## Currently Learning:
