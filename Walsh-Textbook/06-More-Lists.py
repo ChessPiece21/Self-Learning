@@ -1,7 +1,7 @@
 ## Lesson 6: More List Methods
 # These exercises will help you practice more skills and methods with lists.
 
-## For Loops
+## for Loops:
 # What if we wanted to remove something from a list?
 # What if we wanted to calcuate the year each person was born based on their ages?
 # One of the best ways to work with these questions in a list is with for loops, as was hinted at in the last lesson.
@@ -59,3 +59,19 @@ for movie in contemp_blockbusters:
     contemp_nondisney.append(movie)
 
 contemp_nondisney
+
+## List Comprehensions:
+# There is an even simpler way to make new lists, called list comprehensions.
+# Both ways of creating lists arae fine, but list comprehensions are helpful to know about because they can be fast and efficient.
+# The syntax is like this:
+# [output for (variable) in (list) condition]
+# For the fruit lists, it would be: [fruit for fruit in fruits if fruit.isupper()]
+# Try it out with the Disney movies using your own list!
+
+# Seeing which Disney movies were most recently released (post-2000) through creating the comprehension-based list:
+disney_movies = ['Mulan', 'Toy Story', 'Aladdin', 'Monsters Inc.', 'The Lion King', 'Jungle Book', 'Finding Nemo', 'Inside Out', 'Frozen']
+contemp_blockbusters = ['Finding Nemo', 'Shrek', 'Monsters Inc.', 'Mission Impossible', 'Harry Potter', 'Wonder Woman', 'Frozen']
+
+contemp_disney = [movie for movie in disney_movies if movie in contemp_blockbusters]
+contemp_disney
+# It's the same as the other contemp_disney_blockbusters list!
