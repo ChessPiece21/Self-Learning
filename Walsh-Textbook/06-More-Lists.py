@@ -54,7 +54,8 @@ contemp_disney_blockbusters
 # Bonus textbook exercise: creating the non-Disney list.
 contemp_nondisney = []
 
-for movie not in disney_movies:
-  contemp_nondisney.append(movie)
+for movie in contemp_blockbusters:
+  if movie not in disney_movies:
+    contemp_nondisney.append(movie)
 
 contemp_nondisney
