@@ -46,10 +46,9 @@ def make_text_shouty(text):
   shouty_text = text.upper()
   return shouty_text
 
-make_text_shouty("I like tacos!")
+# Do the same thing, but call it make_text_whispery that transforms it to lowercase.
+def make_text_whispery(text):
+  whispery_text = text.lower()
+  return whispery_text
 
-## Counter:
-# The counter function is located in another Python library, known as collections. You would need to import from collections, or import collections as a whole, before beginning this part.
-from collections import Counter
-
-## Word Frequency Counters:
+make_text_shouty("I LOVE TACOS")
