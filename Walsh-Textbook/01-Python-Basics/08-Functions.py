@@ -16,7 +16,7 @@ sing()
 ## Editing Functions:
 # You can also place things in the input parentheses, when variables are assigned, to change the output.
 # Try it out as indicated in the textbook with your own name!
-def say_happy_birthday(name = "Joe")
+def say_happy_birthday(name = "Joe"):
   print(f"Happy birthday, {name}! Here's to another great year!")
 
 # Now call the function with other names!
@@ -32,7 +32,7 @@ import re
 re.split('\W+', sample_string)
   
 # Create a function called split_words and integrate the regular expression to split words in it.
-def split_words(text)
+def split_words(text):
   split_words = re.split('\W+', text)
   return split_words
   
@@ -56,4 +56,4 @@ def make_text_whispery(text):
   whispery_text = text.lower()
   return whispery_text
 
-make_text_shouty("I LOVE TACOS")
+make_text_whispery("I LOVE TACOS")
