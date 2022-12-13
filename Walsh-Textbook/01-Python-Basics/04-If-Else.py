@@ -1,6 +1,6 @@
 ## Lesson 3: Comparisons and Conditionals
 # Writing Python code is a lot like writing a list of detailed instructions to the computer. Most of the time you will be asking the computer to perform certain tasks if certain conditions are met. 
-# For example: if a person in the dataset is older than 30, print that.
+# For example: if a person in the dataset is older than 30, print that they are.
 # Here's how we would write that in Python code.
 # if age > 30:
   # print("This person is older than 30.")
