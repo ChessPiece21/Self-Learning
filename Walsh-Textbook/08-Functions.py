@@ -17,8 +17,13 @@ sing()
 # You can also place things in the input parentheses, when variables are assigned, to change the output.
 # Try it out as indicated in the textbook with your own name!
 def say_happy_birthday(name = "Joe")
-  print(f"Happy birthday {name}!")
+  print(f"Happy birthday, {name}! Here's to another great year!")
 
+# Now call the function with other names!
+say_happy_birthday("Beyonce")
+say_happy_birthday("Jesus")
+say_happy_birthday("Kanye")
+  
 ## Regular Expressions
 # The regular expressions module, imported as re, will allow you to use regular expressions — a special pattern-matching language that allows you to do sophisticated find-and-replace and text manipulation. 
 # We will discuss regular expressions more in the coming weeks. For now, just edit the sample string with the word of your choice.
